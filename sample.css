@@ -1,0 +1,102 @@
+/* Reset and Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Card Container */
+.card {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Header (Profile Section) */
+.card-header {
+  background: url("bgi.webp") center/cover no-repeat;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-color: #e9ecef;
+}
+
+/* Card Body (Content Section) */
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+  color: #6c757d;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.social-links a:hover {
+  color: #000;
+  background-color: #e9ecef;
+  transform: scale(1.1);
+}
+
+#youtube-link {
+  color: #ff0000;
+}
+
+#google-link {
+  color: #4285f4;
+}
+/* Description and Contact Info */
+.description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #343a40;
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: #6c757d;
+  text-align: center;
+}
