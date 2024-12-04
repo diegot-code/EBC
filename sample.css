@@ -28,13 +28,6 @@ body {
   transform: translateY(-5px);
 }
 
-/* Card Header (Profile Section) */
-.card-header {
-  background: url("bgi.webp") center/cover no-repeat;
-  padding: 20px;
-  text-align: center;
-}
-
 .profile-picture {
   width: 120px;
   height: 120px;
