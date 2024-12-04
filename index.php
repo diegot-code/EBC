@@ -62,5 +62,21 @@
         <button type="submit" class="submit-btn">Submit</button>
       </form>
     </div>
+    <?php
+// $directory = './';
+
+// if (!is_dir($directory)) {
+//     exit('Invalid diretory path');
+// }
+
+// $files = [];
+// foreach (scandir($directory) as $file) {
+//     if ($file !== '.' && $file !== '..') {
+//         $files[] = $file;
+//     }
+// }
+
+// var_dump($files);
+    ?>
   </body>
 </html>
